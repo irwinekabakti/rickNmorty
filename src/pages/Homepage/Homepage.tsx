@@ -70,14 +70,14 @@ const Homepage = () => {
         <AsyncHandler loading={loading} error={formatError(error)}>
           <>
             <div className="characters-grid">
-              {data?.characters.results.map((character) => (
-                <CharacterCard key={character.id} character={character} />
+              {data?.characters?.results?.map((character) => (
+                <CharacterCard key={character?.id} character={character} />
               ))}
             </div>
 
             <Pagination
               className="pagination"
-              count={data?.characters.info.pages}
+              count={data?.characters?.info?.pages}
               variant="outlined"
               color="primary"
               disabled={loading}
