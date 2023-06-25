@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(12px + 0.5vw);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.page {
+  margin-top: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.my-md {
+  margin-block: 1rem;
+}
